@@ -1,3 +1,7 @@
 .btn {
     @include base-btn();
 }
+
+#modal-btn {
+    width: 200px;
+}
