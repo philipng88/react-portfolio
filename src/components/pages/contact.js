@@ -43,7 +43,7 @@ export default function() {
                         </div>
 
                         <div className='text'>
-                        Utah  
+                        Lehi, UT  
                         </div>
                     </div>
                 </div>
