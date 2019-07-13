@@ -1,2 +1,2 @@
-# React/Redux/Router Starter Project
+# Personal Portfolio
 

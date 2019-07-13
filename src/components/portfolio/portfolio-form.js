@@ -11,7 +11,7 @@ export default class PortfolioForm extends Component {
     this.state = {
       name: "",
       description: "",
-      category: "eCommerce",
+      category: "Linux",
       position: "",
       url: "",
       thumb_image: "",
@@ -66,7 +66,7 @@ export default class PortfolioForm extends Component {
         id: id,
         name: name || "",
         description: description || "",
-        category: category || "eCommerce",
+        category: category || "Linux",
         position: position || "",
         url: url || "",
         editMode: true,
@@ -158,7 +158,7 @@ export default class PortfolioForm extends Component {
         this.setState({
           name: "",
           description: "",
-          category: "eCommerce",
+          category: "Linux",
           position: "",
           url: "",
           thumb_image: "",
@@ -216,14 +216,10 @@ export default class PortfolioForm extends Component {
             onChange={this.handleChange}
             className="select-element"
           >
-            <option value="eCommerce">eCommerce</option>
-            <option value="Scheduling">Scheduling</option>
-            <option value="Enterprise">Enterprise</option>
-            <option value="Education">Education</option>
-            <option value="Technology">Technology</option>
-            <option value="Social Media">Social Media</option>
-            <option value="Development">Development</option>
-            <option value="Community">Community</option>
+            <option value="Linux">Linux</option>
+            <option value="ReactJS">ReactJS</option>
+            {/* <option value="Python">Python</option> */}
+            <option value="HTML / CSS / JS">HTML / CSS / JS</option>
           </select>
         </div>
 
@@ -254,7 +250,7 @@ export default class PortfolioForm extends Component {
               djsConfig={this.djsConfig()}
               eventHandlers={this.handleThumbDrop()}
             >
-              <div className="dz-message">Thumbnail</div>
+              <div className="dz-message">Background</div>
             </DropzoneComponent>
           )}
 

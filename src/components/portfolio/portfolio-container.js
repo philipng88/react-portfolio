@@ -63,36 +63,20 @@ export default class PortfolioContainer extends Component {
     return (
       <div className='homepage-wrapper'>
         <div className='filter-links'>
-          <button className='btn' onClick={() => this.handleFilter("eCommerce")}>
-              eCommerce
+          <button className='btn' onClick={() => this.handleFilter("Linux")}>
+              Linux
             </button>
             
-            <button className='btn' onClick={() => this.handleFilter("Scheduling")}>
-              Scheduling
+            <button className='btn' onClick={() => this.handleFilter("ReactJS")}>
+              ReactJS
             </button>
             
-            <button className='btn' onClick={() => this.handleFilter("Enterprise")}>
-              Enterprise
-            </button>
+            {/* <button className='btn' onClick={() => this.handleFilter("Python")}>
+              Python
+            </button> */}
 
-            <button className='btn' onClick={() => this.handleFilter("Education")}>
-              Education
-            </button>
-
-            <button className='btn' onClick={() => this.handleFilter("Technology")}>
-              Technology
-            </button>
-
-            <button className='btn' onClick={() => this.handleFilter("Social Media")}>
-              Social Media
-            </button>
-
-            <button className='btn' onClick={() => this.handleFilter("Development")}>
-              Development
-            </button>
-
-            <button className='btn' onClick={() => this.handleFilter("Community")}>
-              Community
+            <button className='btn' onClick={() => this.handleFilter("HTML / CSS / JS")}>
+              HTML / CSS / JS
             </button>
 
             <button className='btn' onClick={() => this.handleFilter("CLEAR_FILTERS")}>
